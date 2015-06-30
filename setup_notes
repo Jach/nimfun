@@ -1,0 +1,8 @@
+Installed nim from github, then installed nimble (nim package manager)
+nim install sdl2
+(Also had to get sdl2 from portage)
+Installed nim plugin for vim. OmniComplete works nicely,
+added 
+map \ngt :tab split<CR>:call JumpToDef()<CR>
+(\ nim go tab) to open defs in new tabs like I like.
+Not a fan of the rubyesque no-parens-needed for function calls, but whatever.

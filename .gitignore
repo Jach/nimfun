@@ -1,0 +1,7 @@
+*.swp
+nimcache
+
+*
+!*.nim
+!Makefile
+!setup_notes
